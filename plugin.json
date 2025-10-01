@@ -1,0 +1,8 @@
+{
+  "id": "shulker-storage-highlighter",
+  "name": "Shulker Storage Highlighter",
+  "version": "1.0.0",
+  "description": "Highlights storage blocks/entities: bright yellow if they contain shulkers, gray otherwise.",
+  "authors": ["riths2b"],
+  "main": "meteordevelopment.examples.ShulkerStorageHighlighterPlugin"
+}

@@ -1,7 +1,0 @@
-ShulkerStorageHighlighter/
-├── plugin.json
-├── build.gradle
-└── src/
-    └── meteordevelopment/
-        └── examples/
-            └── ShulkerStorageHighlighterPlugin.java
