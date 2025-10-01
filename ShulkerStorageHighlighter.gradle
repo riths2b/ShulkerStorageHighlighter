@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'meteordevelopment.examples'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.meteordevelopment.com/releases' }
+}
+
+dependencies {
+    implementation 'meteordevelopment:meteor-client:1.21.4'
+}
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'meteordevelopment.examples.ShulkerStorageHighlighterPlugin'
+        )
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
